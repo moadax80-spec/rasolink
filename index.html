@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <title>راسولينك</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Tahoma, Arial, sans-serif;
+            background: radial-gradient(circle at top, #020024, #090979, #000);
+            color: white;
+            text-align: center;
+            scroll-behavior: smooth;
+        }
+
+        header {
+            padding: 40px 20px;
+            background: rgba(0, 0, 0, 0.7);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 50px;
+        }
+
+        nav {
+            margin-top: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #00e5ff;
+            border: 2px solid #00e5ff;
+            padding: 10px 20px;
+            margin: 5px;
+            border-radius: 30px;
+            display: inline-block;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            background: #00e5ff;
+            color: black;
+            box-shadow: 0 0 15px #00e5ff;
+        }
+
+        section {
+            padding: 60px 30px;
+        }
+
+        h2 {
+            color: #7df9ff;
+            margin-bottom: 30px;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 15px;
+            border: 2px solid #4dd0e1;
+        }
+
+        .special {
+            max-width: 400px;
+            margin: auto;
+        }
+
+        .special img {
+            width: 100%;
+            border-radius: 20px;
+            border: 3px solid #00e5ff;
+            box-shadow: 0 0 30px #00e5ff;
+        }
+
+        .about {
+            max-width: 700px;
+            margin: auto;
+            font-size: 18px;
+            line-height: 1.8;
+            color: #d0f7ff;
+        }
+
+        footer {
+            padding: 15px;
+            background: rgba(0, 0, 0, 0.8);
+            font-size: 14px;
+            color: #ccc;
+        }
+    </style>
+</head>
+<body>
+
+<!-- موسيقى فضائية -->
+<audio autoplay loop>
+    <source src="https://cdn.pixabay.com/audio/2022/10/30/audio_2d7b0c3b39.mp3" type="audio/mpeg">
+</audio>
+
+<header>
+    <h1>🛸 راسولينك</h1>
+    <p>متجر راسولينك للتوصيل الفضائي</p>
+
+    <nav>
+        <a href="#home">الرئيسية</a>
+        <a href="#aliens">الفضائيين</a>
+        <a href="#special">عرض خاص</a>
+        <a href="#about">عن الموقع</a>
+    </nav>
+</header>
+
+<section id="home">
+    <h2>🌌 أهلاً بك</h2>
+    <p class="about">
+        راسولينك يقدم لك تجربة فضائية فريدة مع صور ومحتوى من خارج هذا الكوكب.
+    </p>
+</section>
+
+<section id="aliens">
+    <h2>👽 معرض الفضائيين</h2>
+    <div class="gallery">
+        <img src="C:\Users\MahmoodCenter\Pictures\Saved Pictures\allin1.jpeg">
+        <img src="C:\Users\MahmoodCenter\Pictures\Saved Pictures\allin2.jpeg">
+        <img src="C:\Users\MahmoodCenter\Pictures\Saved Pictures\allin3.jpeg">
+    </div>
+</section>
+
+<section id="special">
+    <h2>🥦🛸 عرض راسولينك الخاص</h2>
+    <div class="special">
+        <!-- صورتك -->
+        <img src="8021DB9E-ECA4-4C16-BBAB-FBF43CEB43E1.jpeg" alt="متجر راسولينك">
+        <p style="margin-top:15px;color:#9efcff;">
+            التوصيل الفوري الفضائي 👽🥦
+        </p>
+    </div>
+</section>
+
+<section id="about">
+    <h2>ℹ️ عن راسولينك</h2>
+    <p class="about">
+        موقع خيالي ساخر بطابع فضائي، يجمع بين المرح والتصميم والموسيقى.
+    </p>
+</section>
+
+<footer>
+    © 2025 راسولينك
+</footer>
+
+</body>
+</html>
